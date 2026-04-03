@@ -1,0 +1,14 @@
+artifact_uri: file:///home/alfredo/Documentos/proyectos/proyecto_final_kc/proyecto_final/mlruns/708739769633530405/6e2878e5691e4cfb827d5347cd5e6ecd/artifacts
+end_time: 1775247047567
+entry_point_name: ''
+experiment_id: '708739769633530405'
+lifecycle_stage: active
+run_id: 6e2878e5691e4cfb827d5347cd5e6ecd
+run_name: rent_ML
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1775247045804
+status: 3
+tags: []
+user_id: alfredo

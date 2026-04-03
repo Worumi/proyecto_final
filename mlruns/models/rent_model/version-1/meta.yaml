@@ -1,0 +1,16 @@
+creation_timestamp: 1775246750083
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1775246750083
+model_id: m-31904320abc742c8b6800206069cba73
+name: rent_model
+run_id: 46a5f787d77d480ea36a034fb916b43a
+run_link: null
+source: models:/m-31904320abc742c8b6800206069cba73
+status: READY
+status_message: null
+storage_location: file:///home/alfredo/Documentos/proyectos/proyecto_final_kc/proyecto_final/mlruns/708739769633530405/models/m-31904320abc742c8b6800206069cba73/artifacts
+user_id: null
+version: 1
+workspace: default

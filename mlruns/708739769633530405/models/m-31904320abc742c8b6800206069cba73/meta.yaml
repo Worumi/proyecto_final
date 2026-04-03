@@ -1,0 +1,10 @@
+artifact_location: file:///home/alfredo/Documentos/proyectos/proyecto_final_kc/proyecto_final/mlruns/708739769633530405/models/m-31904320abc742c8b6800206069cba73/artifacts
+creation_timestamp: 1775246746840
+experiment_id: '708739769633530405'
+last_updated_timestamp: 1775246750077
+model_id: m-31904320abc742c8b6800206069cba73
+model_type: null
+name: rent_model_DL
+source_run_id: 46a5f787d77d480ea36a034fb916b43a
+status: 2
+status_message: null

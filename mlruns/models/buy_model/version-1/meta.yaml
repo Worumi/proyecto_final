@@ -1,0 +1,16 @@
+creation_timestamp: 1775246930255
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1775246930255
+model_id: m-34db53573a6e45ce9c0338dc982b0209
+name: buy_model
+run_id: 0d37db62e4354a7d8f00a6ea5c9e8cb6
+run_link: null
+source: models:/m-34db53573a6e45ce9c0338dc982b0209
+status: READY
+status_message: null
+storage_location: file:///home/alfredo/Documentos/proyectos/proyecto_final_kc/proyecto_final/mlruns/708739769633530405/models/m-34db53573a6e45ce9c0338dc982b0209/artifacts
+user_id: null
+version: 1
+workspace: default

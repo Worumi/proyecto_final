@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.vscode
+.streamlit/
+models/buy_model_ml.pkl
+models/rent_model_ml.pkl 
+groq.txt
