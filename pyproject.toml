@@ -9,7 +9,6 @@ dependencies = [
     "joblib>=1.5.3",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.8",
-    "mlflow>=3.10.1",
     "numpy>=2.4.3",
     "openai>=2.30.0",
     "pandas<=3.0.1",
@@ -21,4 +20,4 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["tools", "models", "07_ai_assistant"]
+packages = ["tools", "models", "ai_assistant"]

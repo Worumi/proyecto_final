@@ -1,0 +1,5 @@
+model,model_type,model_name,r2,mae,params
+rent_model,rent_model_DL,modelo_alquiler_dl.keras,0.7700347304344177,176.24090576171875,"({'batch_size': 32, 'epochs': 500},)"
+buy_model,buy_model_DL,modelo_compras_dl.keras,0.7648555675078903,82019.7536203254,"({'batch_size': 32, 'epochs': 500},)"
+buy_model,buy_model_rf,buy_model_ML.joblib,0.924697631429223,59896.78540197972,"{'n_estimators': 200, 'min_samples_split': 2, 'max_features': 'sqrt', 'max_depth': 20}"
+rent_model,rent_model_rf,rent_model_ML.joblib,0.8261127276634168,149.85671042484802,"{'n_estimators': 200, 'min_samples_split': 2, 'max_features': 'sqrt', 'max_depth': 20}"
