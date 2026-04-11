@@ -248,7 +248,7 @@ with tab2:
         if texto_anuncio.strip() == "":
             st.warning("Por favor, pega el texto de un anuncio primero.")
         else:
-            with st.spinner("Extrayendo datos con IA y ejecutando modelos Deep Learning..."):
+            with st.spinner("Extrayendo datos con IA y ejecutando modelos..."):
                 datos_extraidos, p_compra, p_alquiler = extraer_y_predecir(texto_anuncio)
 
                 if datos_extraidos == "NO_ES_ANUNCIO":
