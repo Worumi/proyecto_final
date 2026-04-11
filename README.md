@@ -9,3 +9,6 @@
 - Se ha usado el gestor de proyectos **uv**. Para instalar las dependencias basta con instalar uv y ejecutar el comando **uv sync** en el terminal con el entorno virtual activado.
 - Se debe activar Git Large File para hacer push de archivos grandes. (Este fue el caso de los modelos de ML generados). [Git LFS](https://git-lfs.com/)
 - Para que se pueda cargar un modelo en específico en la app de streamlit, se debe ejecutar MLFlow y asignar el stage como "Production"
+
+
+Para [Demo](https://proyectofinal-py3fygv6s4oynpsdkkoqcv.streamlit.app/)
