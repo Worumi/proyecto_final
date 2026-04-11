@@ -1,5 +1,10 @@
+import sys
 import os
+
+# Subir un nivel para encontrar 'tools', 'models', etc.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import streamlit as st
+
 import joblib
 import pandas as pd
 import numpy as np
