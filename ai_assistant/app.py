@@ -173,12 +173,13 @@ def extraer_y_predecir(texto_anuncio):
         if buy_model_selector()[1] == "buy_model_ML.joblib":
             pred_compra_log = m_buy.predict(datos_procesados)[0] ## Aqui
             precio_compra = np.exp(pred_compra_log) # Asumiendo que compra usa logaritmo
-        
-            precio_alquiler = m_rent.predict(datos_procesados)[0] # Asumiendo que alquiler no usa logaritmo
         else:
             pred_compra_log = m_buy.predict(datos_procesados)[0][0] ## Aqui
             precio_compra = np.exp(pred_compra_log) # Asumiendo que compra usa logaritmo
         
+        if rent_model_selector()[1] == "rent_model_ML.joblib":
+            precio_alquiler = m_rent.predict(datos_procesados)[0] # Asumiendo que alquiler no usa logaritmo
+        else:
             precio_alquiler = m_rent.predict(datos_procesados)[0][0] # Asumiendo que alquiler no usa logaritmo
         
         return diccionario_seguro, precio_compra, precio_alquiler
